@@ -17,6 +17,7 @@ select = document.getElementById("select")
 click1 = document.getElementById("click1")
 click2 = document.getElementById("click2")
 click3 = document.getElementById("click3")
+click4 = document.getElementById("click4")
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'a') {
@@ -38,3 +39,5 @@ document.addEventListener('keydown', function (event) {
 click1.addEventListener("click", () => click1.style.backgroundColor= color);
 click2.addEventListener("click", () => click2.style.backgroundColor= color);
 click3.addEventListener("click", () => click3.style.backgroundColor= color);
+click4.addEventListener("click", () => click4.style.backgroundColor= color);
+
